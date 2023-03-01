@@ -1,0 +1,176 @@
+/* BODY */
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+}
+
+
+/* Top Bar  */
+
+.top-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#2a5196;
+    box-shadow: 0 6px 6px 2px; color: grey;
+    
+}
+
+.hamburger {
+    width: 33%;
+    padding: 5px;
+    
+}
+
+.company-title {
+    width: 33%;
+    padding: 5px;
+    
+    
+}
+
+.company-logo {
+    width: 33%;
+    padding: 5px;
+  
+}
+
+.homepage-link {
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    ;
+}
+
+#right {
+    text-align: right;
+}
+
+#center {
+    text-align: center;
+}
+
+/* MENU Bar */
+
+.menu-bar {
+    margin-top: 30px;
+    height: 1200px;
+    width: 200px;
+    position: absolute;
+    background-color: #2a5196;
+    max-width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: none;
+  
+}
+
+ul {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+/* MAIN CONTENT */
+
+article {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(80%);
+}
+
+.main-image {
+    position: relative;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.upcoming {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.main-copy {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+
+    }
+
+h1 {
+    text-decoration: underline;
+    color: green;
+}
+
+h2 {
+    display: inline;
+}
+
+/* Font scaling */
+
+@media screen and (max-width: 800px) {
+    .main-copy {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    h1 h2 h3 {
+      font-size: 20px;
+    }
+
+  }
+
+@media screen and (max-width: 800px) {
+   .overlay {
+      font-size: 25px;
+    }
+
+}
+
+    @media screen and (max-width: 800px) {
+        .homepage-link {
+          font-size: 16px;
+        }
+}
+
+@media screen and (max-width: 800px) {
+    .upcoming {
+      font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu-bar {
+      font-size: 15px;
+    }
+}
+
